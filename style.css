@@ -1,0 +1,98 @@
+#wrapper {
+  grid-column: 2/3;
+  grid-row: 1/11;
+  display: grid;
+  margin: auto;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.free{
+  border: 1px solid black;
+}
+
+.weapon1{
+  background-image: url('weapon3.png');
+  background-size: cover;
+  border: 1px solid black;
+
+}
+
+.weapon2{
+  background-image: url('weapon44.png');
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.weapon3{
+  background-image: url('weapon1.png');
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.weapon4{
+  background-image: url('weapon22.png');
+  background-size: cover;
+  border: 1px solid black;
+}
+
+.obstacle{
+  background-image: url('rock.png');
+  border: 1px solid black;
+  background-size: cover;
+}
+
+.player1{
+  background-image: url('imgpl1.png');
+  background-size: cover;
+  border: 1px solid black;
+
+}
+
+.player2{
+  background-image: url('imgpl2.png');
+  background-size: cover;
+  border: 1px solid black;
+
+}
+
+.gameover{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 60px;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  margin:auto;
+  display:block;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+

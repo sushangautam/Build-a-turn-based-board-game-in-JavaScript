@@ -1,0 +1,171 @@
+body{
+	margin: 0px;
+	display: grid;
+	grid-template-rows:repeat(10,1fr);
+	grid-template-columns:2fr 8fr 2fr;
+}
+
+.player1scoreboard{
+	grid-row: 1/11;
+	grid-column: 1/2;
+	background-color: #e7dfd5;
+	border: 3px solid #3b6978;
+	border-style: groove;
+	border-radius: 20px;
+}
+
+.player2scoreboard{
+	grid-row: 1/11;
+	grid-column: 3/4;
+	background-color: #e7dfd5;
+	border: 3px solid #3b6978;
+	border-style: groove;
+	border-radius: 20px;
+}
+
+.sc-1{
+	grid-column: 1/2;
+	grid-row: 1/3;
+	text-align: center;
+	align-self: center;
+}
+
+.sc-2{
+	grid-column: 3/4;
+	grid-row: 1/3;
+	text-align: center;
+	align-self: center;
+}
+#pl1,#pl2{
+	border-radius: 50%;
+}
+
+.sc-3{
+	grid-column: 1/2;
+	grid-row: 3/4;
+	text-align: center;
+	align-self: center;
+	font-size: 2.5em;
+	color: #7d0633;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+.sc-4{
+	grid-column: 3/4;
+	grid-row: 3/4;
+	text-align: center;
+	align-self: center;
+	font-size: 2.5em;
+	color: #7d0633;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+.sc-5{
+	grid-column: 1/2;
+	grid-row: 4/6;
+	text-align: center;
+	align-self: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #204051;
+}
+
+#points{
+	border: 2px dashed purple;
+	border-radius: 50%;
+	padding: 16px;
+	border-style: groove;
+}
+
+.sc-6{
+	grid-column: 3/4;
+	grid-row: 4/6;
+	text-align: center;
+	align-self: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #204051;
+}
+
+.sc-7{
+	grid-column: 1/2;
+	grid-row: 6/7;
+	text-align: center;
+	align-self: center;
+	font-size: 1.2em;
+	border: 2px dashed black;
+}
+
+.sc-8{
+	grid-column: 3/4;
+	grid-row: 6/7;
+	text-align: center;
+	align-self: center;
+	font-size: 1.2em;
+	border: 2px dashed black;
+
+}
+
+.sc-9{
+	grid-column: 1/2;
+	grid-row: 7/9;
+	text-align: center;
+	align-self: center;
+}
+
+.sc-10{
+	grid-column: 3/4;
+	grid-row: 7/9;
+	text-align: center;
+	align-self: center;
+}
+#wl1,#wl2,#wl3,#wl4,#weaponpl1,#weaponpl2{
+	object-fit: cover;
+  	width: 50%;
+  	max-height: 50%;
+}
+
+.sc-11{
+	grid-column: 1/2;
+	grid-row: 9/10;
+	text-align: center;
+	align-self: center;
+	font-size: 1.2em;
+	border: 2px dashed black;
+
+}
+
+.sc-12{
+	grid-column: 3/4;
+	grid-row: 9/10;
+	text-align: center;
+	align-self: center;
+	font-size: 1.2em;
+	border: 2px dashed black;
+
+}
+
+.sc-13{
+	grid-column: 1/2;
+	grid-row: 10/11;
+	text-align: center;
+	align-self: center;
+	font-size: 2em;
+	color: #3b6978;
+}
+
+.sc-14{
+	grid-column: 3/4;
+	grid-row: 10/11;
+	text-align: center;
+	align-self: center;
+	font-size: 2em;
+	color: #3b6978;
+}
+
+
+
+
+
